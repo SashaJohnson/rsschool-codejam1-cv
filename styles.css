@@ -64,11 +64,17 @@ li {
     
 }
  
-a {
+li a {
     padding: 20px;
     display:inline-block;
     transition: background-color 0.3s;
     text-decoration:none;
+}
+
+a {
+
+    text-decoration:none;
+
 }
 
 .wrapper li a:hover {
@@ -116,3 +122,4 @@ border-radius:3px;
 box-shadow: 0px 0px 15px white
  
 }
+
