@@ -37,6 +37,7 @@
     padding:25px;
     text-align: justify;
     opacity: 0.9;
+    
  }
  
  .profile-picture {
@@ -50,12 +51,14 @@
  }
  
 ul {
+
     background-color: #EFE9FF;
     list-style-type: none;
     margin: 0;
     padding: 0;
     opacity:0.9;
     text-align:center;
+    
 }
 
 li {
@@ -65,10 +68,12 @@ li {
 }
  
 li a {
+
     padding: 20px;
     display:inline-block;
     transition: background-color 0.3s;
     text-decoration:none;
+    
 }
 
 a {
@@ -81,7 +86,7 @@ a {
 
     background-color: #42aaff;
 
-    }
+}
 
 a > img {
 
@@ -92,34 +97,34 @@ a > img {
 
 #onTop {
 
-padding: 0;
+    padding: 0;
 
 }
 
 .bottom {
 
-text-align: center;
-max-width:200px;
-margin: 0 auto;
-opacity: 0;
-transition: opacity 0.5s;
+    text-align: center; 
+    max-width:200px;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 0.5s;
 
 }
 
 .bottom:hover {
 
-opacity: 0.9;
+    opacity: 0.9;
 
 }
 
 p + img {
 
-width:80%;
-display: block;
-margin-left: auto;
-margin-right: auto;
-border-radius:3px;
-box-shadow: 0px 0px 15px white
+    width:80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:3px;
+    box-shadow: 0px 0px 15px white
  
 }
 
